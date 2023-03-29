@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:54.174.38.241:9000/</sonar.host.url>
+		<sonar.host.url>http:35.87.0.62:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,14 +30,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Koftown Tech Releases Nexus Repository</name>
-	      <url>http://52.54.253.226:8081/repository/onlinebookstore-release/</url>
+	      <name>Sandy Tech Snapshot Nexus Repository </name>
+	      <url>http://34.219.72.90:8081/repository/Sandy-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Koftown Tech Snapshot Nexus Repository </name>
-	      <url>http://52.54.253.226:8081/repository/onlinebookstore-snapshot/</url>
+	      <name>Sandy Tech Snapshot Nexus Repository </name>
+	      <url>http://34.219.72.90:8081/repository/Sandy-release/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
