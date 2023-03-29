@@ -30,14 +30,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Sandy Tech Snapshot Nexus Repository </name>
+	      <name>Sandy Tech Release Nexus Repository </name>
 	      <url>http://34.219.72.90:8081/repository/Sandy-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Sandy Tech Snapshot Nexus Repository </name>
-	      <url>http://34.219.72.90:8081/repository/Sandy-release/</url>
+	      <name>Sandy Tech Release Nexus Repository </name>
+	      <url>http://34.219.72.90:8081/repository/Sandy-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
